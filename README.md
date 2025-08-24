@@ -19,7 +19,7 @@
 
 ## Install wezterm:
 - curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
-- echo 'deb [signed-by=/usr/share/keyrings/wezterm-fury.gpg] https://apt.fury.io/wez/ * *' | sudo tee /etc/apt/sources.list.d/wezterm.list
+- echo 'deb \[signed-by=/usr/share/keyrings/wezterm-fury.gpg\] https://apt.fury.io/wez/ * *' | sudo tee /etc/apt/sources.list.d/wezterm.list
 - sudo chmod 644 /usr/share/keyrings/wezterm-fury.gpg
 
 ## Install nerd font:
@@ -38,8 +38,12 @@
 - sudo dpkg -i ripgrep_14.1.1-1_amd64.deb
 
 ## NvChad
-- git clone https://github.com/NvChad/starter ~/.config/nvim
+- git clone git@github.com:brichar01/nvim-starter.git ~/.config/nvim
+- cd ~/.config/nvim 
+- git checkout brichar01
 - nvim -> :MasonInstallAll
 
 ## UV for python management
 - curl -LsSf https://astral.sh/uv/install.sh | sh
+
+## 

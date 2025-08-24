@@ -3,8 +3,19 @@
 - sudo apt upgrade
 - sudo apt install curl git libarchive-tools xclip cmake
 
-# github setup
+## github setup
 - ssh-keygen
+- upload to github
+- git config --global user.email "bdvrichards@gmail.com"
+- git config --global user.name "Ben Richards"
+
+## Install btop
+- mkdir tmp && cd tmp
+- curl -fsSL https://github.com/aristocratos/btop/releases/download/v1.4.4/btop-x86_64-linux-musl.tbz | tar -xvj
+- cd btop
+- sudo make install
+- cd ../
+- rm -rf btop
 
 ## Install wezterm:
 - curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg

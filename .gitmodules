@@ -1,0 +1,3 @@
+[submodule "esp-version-manager"]
+	path = esp-version-manager
+	url = git@github.com:brichar01/esp-version-manager.git

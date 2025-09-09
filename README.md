@@ -61,4 +61,8 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
 - pyenv install 3.12
 - pyenv global 3.12
 
-## Install in
+# TO DO:
+Look into configuring Nvim with https://github.com/mfussenegger/nvim-dap and https://github.com/mfussenegger/nvim-dap-python?tab=readme-ov-file 
+Look into setting up: https://github.com/jedrzejboczar/nvim-dap-cortex-debug
+
+>>>>>>> 7b2928a (TO DO section)
